@@ -1,0 +1,30 @@
+/* Regole header */
+header {
+    background-color: #212529;
+}
+
+header nav img {
+    width: 60px;
+    height: auto;
+}
+
+header .nav-link{
+    color: grey;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.navbar-nav .nav-link.active{
+    color: white;
+}
+
+.btn-outline-success{
+    --bs-btn-border-color: white;
+    --bs-btn-color: white;
+}
+
+.navbar-toggler{
+    background-color: white;
+}
